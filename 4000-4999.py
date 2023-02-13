@@ -16,10 +16,10 @@ def get_text(url,x):
     r.encoding='gdk'
     selector=etree.HTML(r.text)
     title=str(x)
-    text=selector.xpath('//text()')
+
     #text2=selector.xpath('/html/body/pre/text()[2]')
     with open(path+title+'.txt','w',encoding='UTF-8') as f:
-        for i in text:
+        for i in str(r.text):
             f.write(i)
         #for i in text2:
             #f.write(i)#
