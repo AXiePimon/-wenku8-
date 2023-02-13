@@ -10,3 +10,5 @@
 1.修改路径，在程序中找到path＝''，按照Python的方法修改
 
 2.更换下载源：在程序中找到urls列表，把里面的“download1。。。”改成download2或download3
+
+断点续传请使用idle手动完成~~~
