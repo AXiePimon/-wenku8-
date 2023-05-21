@@ -4,7 +4,7 @@ from lxml import etree
 
 global x
 x=4000
-urls=['https://dl1.wenku8.com/txtutf8/4/{}.txt'.format(i) for i in range(4000,5000)]
+urls=['https://dl1.wenku8.com/down/txtutf8/4/{}.txt'.format(i) for i in range(4000,5000)]
 path=r'D:\novels\4000-4999\novel'
 headers = {
     'Cookie':'OCSSID=4df0bjva6j7ejussu8al3eqo03',
